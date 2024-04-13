@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Achievement
+- [x] Redux
+- [x] hook
+- [x] Server side rendering
+- [x] Typescript
+- [ ] Public domain
+
 ## Available Scripts
 
 In the project directory, you can run:

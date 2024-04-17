@@ -24,13 +24,7 @@ app.use("^/$", (req, res, next) => {
     return res.send(
       data.replace(
         "<div id=\"root\"></div>",
-        `<div id="root">${ssr}</div>
-        <script>
-          window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(
-            /</g,
-            "\\u003c"
-          )}
-        </script>`
+        `<div id="root">${ssr}</div>`
       )
     );
   });
